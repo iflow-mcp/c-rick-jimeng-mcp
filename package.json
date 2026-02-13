@@ -1,9 +1,12 @@
 {
-  "name": "jimeng-mcp",
+  "name": "@iflow-mcp/c-rick-jimeng-mcp",
   "version": "1.9.0",
   "description": "MCP服务器项目，集成即梦AI图像生成",
   "type": "module",
   "main": "lib/index.js",
+  "bin": {
+    "iflow-mcp-c-rick-jimeng-mcp": "./lib/index.js"
+  },
   "types": "lib/index.d.ts",
   "exports": {
     ".": {
